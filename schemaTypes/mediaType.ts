@@ -29,7 +29,7 @@ export const featureMediaType = defineType({
     {
       name: 'embed',
       title: 'Embed',
-      type: 'url',
+      type: 'code',
       hidden: ({parent}) => parent?.mediaType != 'embed',
     },
     {
