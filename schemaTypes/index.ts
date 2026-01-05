@@ -1,4 +1,5 @@
 import {categoryType} from './categoryType'
+import { galleryImageType } from './galleryImage'
 import {featureMediaType} from './mediaType'
 import {projectDescriptionType} from './projectDescriptionType'
 import {projectType} from './projectType'
@@ -10,4 +11,5 @@ export const schemaTypes = [
   featureMediaType,
   categoryType,
   projectDescriptionType,
+  galleryImageType
 ]

@@ -18,11 +18,6 @@ export const thumbnailType = defineType({
       type: 'string',
     }),
     defineField({
-      name: 'shouldDisplayAsBanner',
-      description: "Should the thumbnail image be displayed in the project's intro section?",
-      type: 'boolean',
-    }),
-    defineField({
       name: 'image',
       type: 'image',
       validation: (rule) => rule.required(),
